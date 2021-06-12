@@ -1,0 +1,43 @@
+.clients-container {
+  margin-top: 80px;
+  background-color: #202123;
+  padding: 30px;
+  color: #fff;
+}
+
+.clients-content {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+
+.client-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 350px;
+  padding: 60px 30px;
+  border-radius: 2px;
+}
+
+.client-info strong {
+  margin: 10px 0;
+}
+
+.client-info p {
+  max-width: 180px;
+  margin: 0 auto;
+}
+
+.client-info img {
+  margin: 0 auto;
+  width: 75px;
+  height: 75px;
+  border: 2.5px solid #fff;
+  border-radius: 50%;
+  object-fit: cover;
+}

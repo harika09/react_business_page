@@ -1,0 +1,41 @@
+.project-container {
+  margin-top: 80px;
+}
+
+.project-cards {
+  margin-top: 30px;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+}
+
+.card-image {
+  position: relative;
+  cursor: pointer;
+}
+
+.card-image img {
+  object-fit: cover;
+  border-radius: 2px;
+  max-width: 290px;
+  filter: brightness(0.6);
+  opacity: 0.7;
+}
+
+.card-image p {
+  color: #fff;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: 50%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .card-image img {
+    max-width: 350px;
+  }
+}
