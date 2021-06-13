@@ -19,7 +19,7 @@
   object-fit: cover;
   border-radius: 2px;
   width: 100%;
-  max-width: 290px;
+  max-width: 350px;
   filter: brightness(0.6);
   opacity: 0.7;
 }
@@ -35,8 +35,12 @@
   width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+.swiper-pagination .swiper-pagination-bullet {
+  background: #fff;
+}
+
+@media screen and (max-width: 900px) {
   .card-image img {
-    max-width: 350px;
+    max-width: 450px;
   }
 }

@@ -16,7 +16,7 @@ SwiperCore.use([Pagination]);
 
 function Clients() {
   return (
-    <div className="clients-container">
+    <div className="clients-container" id="clients">
       <div className="clients-wrapper bd-container">
         <h2>Our Clients</h2>
         <p className="text">

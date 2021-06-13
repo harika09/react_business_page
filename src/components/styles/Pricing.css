@@ -1,0 +1,86 @@
+.pricing-container {
+  margin-top: 80px;
+}
+
+.plan-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  place-content: center;
+  margin-bottom: 40px;
+}
+
+.plan-card {
+  padding: 10px 30px;
+  margin-top: 30px;
+  max-width: 330px;
+  border: 1px solid #f4f4f4;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px #f4f4f4;
+  position: relative;
+  background: #fff;
+}
+
+.plan-card:hover {
+  box-shadow: 0 6px #efba00;
+}
+.plan-card .card-top {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.plan-card .card-top i {
+  color: #efba00;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+.card-top .popular::before {
+  position: absolute;
+  content: "";
+  background: #efba00;
+  height: 29px;
+  width: 28px;
+  top: 0.5rem;
+  right: -2rem;
+  z-index: -1;
+  transform: rotate(45deg);
+  color: white;
+}
+
+.card-top .popular::after {
+  position: absolute;
+  content: "POPULAR";
+  top: -1px;
+  right: -2.4rem;
+  padding: 5px 10px;
+  background: #efba00;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+/* .plan-card .card-top .popular {
+  position: absolute;
+  background: #efba00;
+  color: #fff;
+  font-weight: bold;
+  font-size: 8px;
+  padding: 5px;
+  left: 95%;
+} */
+
+.plan-card p {
+  margin: 15px 0;
+}
+
+.plan-card .price {
+  font-size: 1.5rem;
+}
+
+.plan-container .color {
+  background-color: red;
+}

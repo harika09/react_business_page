@@ -70,13 +70,24 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to=""
+                to="clients"
                 activeClass="active"
                 spy="true"
                 smooth="true"
                 duration={500}
               >
-                Shop
+                Reviews
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="pricing"
+                activeClass="active"
+                spy="true"
+                smooth="true"
+                duration={500}
+              >
+                Pricing
               </Link>
             </li>
             <li className="nav-item">
@@ -87,18 +98,7 @@ function Navbar() {
                 smooth="true"
                 duration={500}
               >
-                Contact us
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to=""
-                activeClass="active"
-                spy="true"
-                smooth="true"
-                duration={500}
-              >
-                Prices
+                Contact Us
               </Link>
             </li>
           </ul>
