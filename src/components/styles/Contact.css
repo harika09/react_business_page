@@ -3,14 +3,12 @@
   margin-bottom: 40px;
 }
 .partner-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  place-items: center;
 }
 
 .partner-wrapper img {
-  margin-right: 40px;
   width: 100%;
   max-width: 100px;
   height: auto;
@@ -90,5 +88,16 @@ textarea {
 
   .contact-details {
     grid-row: 2;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .partner-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+  .partner-wrapper img {
+    max-width: 80px;
+    margin: 0;
   }
 }

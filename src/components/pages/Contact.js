@@ -1,5 +1,8 @@
 import React from "react";
 import "../styles/Contact.css";
+import { useForm } from "react-hook-form";
+
+// Images
 import Cisco from "../images/cisco.png";
 import Square from "../images/square.png";
 import Soundcloud from "../images/soundcloud.png";
@@ -8,6 +11,12 @@ import Nbc from "../images/nbc.png";
 import Pinterest from "../images/pinterest.png";
 
 function Contact() {
+  const { message, handleSubmit, errors } = useForm();
+
+  const onSubmit = (data) => {
+    console.log(data);
+  };
+
   return (
     <div className="contact-container" id="contact">
       <div className="contact-wrapper bd-container">
@@ -55,13 +64,14 @@ function Contact() {
           </div>
 
           <div className="contact-form">
-            <form onSubmit="">
+            <form onSubmit={handleSubmit(onSubmit)}>
               <label>Fulle Name</label>
               <input
                 type="text"
                 name="name"
                 id="name"
                 placeholder="Full Name"
+                ref={message}
               />
               <label>Email Address</label>
               <input
@@ -69,12 +79,14 @@ function Contact() {
                 name="email"
                 id="email"
                 placeholder="Email Address"
+                ref={message}
               />
               <label>Message</label>
               <textarea
                 name="subject"
                 id="subject"
                 placeholder="Message..."
+                ref={(message, { required: true, maxLength: 250 })}
               ></textarea>
               <button>Send</button>
             </form>

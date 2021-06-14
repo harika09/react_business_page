@@ -8,6 +8,7 @@ import Clients from "./components/pages/Clients";
 import Pricing from "./components/pages/Pricing";
 import Contact from "./components/pages/Contact";
 import Work from "./components/pages/Work";
+import Footer from "./components/pages/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Pricing />
       <Work />
       <Contact />
+      <Footer />
     </>
   );
 }
