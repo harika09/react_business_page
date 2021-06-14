@@ -31,6 +31,12 @@
   justify-content: center;
   align-self: center;
   gap: 40px;
+  text-align: center;
+}
+
+.contact-details i {
+  font-size: 1.5rem;
+  color: #efba00;
 }
 .tel-info,
 .email-info,
@@ -69,11 +75,20 @@ textarea {
 }
 
 @media screen and (max-width: 900px) {
+  .contact-container h2 {
+    margin-top: 40px;
+  }
+  .contact-details {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-size: 0.9rem;
+  }
   .contact-info-wrapper {
     grid-template-columns: 1fr;
   }
 
   .contact-details {
-    grid-row: 1;
+    grid-row: 2;
   }
 }
