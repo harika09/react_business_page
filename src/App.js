@@ -6,6 +6,8 @@ import Services from "./components/pages/Services";
 import Projects from "./components/pages/Projects";
 import Clients from "./components/pages/Clients";
 import Pricing from "./components/pages/Pricing";
+import Contact from "./components/pages/Contact";
+import Work from "./components/pages/Work";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Projects />
       <Clients />
       <Pricing />
+      <Work />
+      <Contact />
     </>
   );
 }

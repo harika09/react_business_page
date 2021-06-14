@@ -92,7 +92,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to=""
+                to="contact"
                 activeClass="active"
                 spy="true"
                 smooth="true"

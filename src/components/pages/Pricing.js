@@ -36,7 +36,7 @@ function Pricing() {
 
           <div className="plan-card">
             <div className="card-top">
-              <i className="fas fa-leaf"></i>
+              <i className="fas fa-archway"></i>
               <strong>BASIC PLAN</strong>
             </div>
             <hr />
@@ -58,7 +58,7 @@ function Pricing() {
           <div className="plan-card">
             <div className="card-top">
               <i className="popular"></i>
-              <i className="fas fa-leaf"></i>
+              <i className="fas fa-university"></i>
               <strong>PLUS PLAN</strong>
             </div>
             <hr />
@@ -79,7 +79,7 @@ function Pricing() {
 
           <div className="plan-card">
             <div className="card-top">
-              <i className="fas fa-leaf"></i>
+              <i className="fas fa-vihara"></i>
               <strong>CORPORATE PLAN</strong>
             </div>
             <hr />
