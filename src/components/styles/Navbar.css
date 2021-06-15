@@ -105,6 +105,10 @@ a {
     background-color: #0d1f38;
   }
 
+  .nav-menu .nav-item {
+    margin: 0;
+  }
+
   .nav-links {
     text-align: center;
     padding: 2rem;
