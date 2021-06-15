@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Footer.css";
+import Logo from "../images/logo.png";
+
 function Footer() {
   return (
     <div className="footer-container">
@@ -100,7 +102,7 @@ function Footer() {
         </div>
         <div className="footer-logo-wrapper">
           <div className="footer-logo">
-            <p>LOGO</p>
+            <img src={Logo} alt="Logo" />
           </div>
           <div className="footer-copyright">
             <p>Constructed Theme &copy; 2015. All Right Reserved.</p>

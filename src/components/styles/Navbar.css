@@ -12,20 +12,26 @@ a {
   width: 100%;
   left: 0;
   right: 0;
-  padding: 25px 0px;
+  padding: 5px 0px;
   z-index: 50;
   transition: 0.5s;
   font-size: 1.2rem;
 }
 
 .header.active {
-  background-color: #242424;
-  color: #000;
+  background-color: #0d1f38;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
+}
+
+.header-container img {
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
 }
 
 .header-wrapper {
@@ -51,14 +57,11 @@ a {
 
 .social-media-wrapper {
   display: flex;
+  align-items: center;
 }
 
 .social-media-wrapper li {
   margin-left: 20px;
-}
-
-.nav-item {
-  color: #fff;
 }
 
 .nav-item .active {
@@ -66,24 +69,73 @@ a {
   /* border-bottom: 1px solid #fff; */
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 997px) {
   /* ========== Header Here ========== */
   .header-container {
     justify-content: space-between;
   }
 
-  .nav-menu,
+  .header-container img {
+    width: 50px;
+    height: 50px;
+  }
+
   .social-media {
     display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 55px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  header .nav-menu.active {
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    padding-left: 0;
+    background-color: #0d1f38;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: #fff;
+    color: #242424;
+    border-radius: 0;
   }
 
   .menu-toggle {
     position: relative;
     width: 50px;
     height: 20px;
-    background: url(../images/menu.svg) no-repeat;
+    background: url(../images/icon-hamburger.svg) no-repeat;
     background-size: 25px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .menu-toggle.active {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    background: url(../images/icon-close.svg) no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
   }
   /* ========== Header END ========== */
 }

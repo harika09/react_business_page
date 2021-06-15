@@ -1,9 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import "../styles/Navbar.css";
+import Logo from "../images/logo.png";
 
 function Navbar() {
   const [header, setHeader] = useState(false);
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+
+  const closeMobileMenu = () => setClick(false);
 
   const stickyBackground = () => {
     if (window.scrollY >= 80) {
@@ -18,12 +24,17 @@ function Navbar() {
   return (
     <div className={header ? "header active" : "header"}>
       <header className="header-container bd-container">
-        <Link to="hero" activeClass="active" smooth="true" duration={500}>
-          <img src="" alt="" />
-          LOGO
+        <Link
+          to="hero"
+          activeClass="active"
+          smooth="true"
+          duration={500}
+          onClick={closeMobileMenu}
+        >
+          <img src={Logo} alt="" />
         </Link>
         <div className="header-wrapper">
-          <ul className="nav-menu">
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link
                 to="hero"
@@ -31,6 +42,8 @@ function Navbar() {
                 spy="true"
                 smooth="true"
                 duration={500}
+                onClick={closeMobileMenu}
+                className="nav-links"
               >
                 Home
               </Link>
@@ -42,6 +55,8 @@ function Navbar() {
                 spy="true"
                 smooth="true"
                 duration={500}
+                onClick={closeMobileMenu}
+                className="nav-links"
               >
                 Features
               </Link>
@@ -53,6 +68,8 @@ function Navbar() {
                 spy="true"
                 smooth="true"
                 duration={500}
+                onClick={closeMobileMenu}
+                className="nav-links"
               >
                 Services
               </Link>
@@ -64,6 +81,8 @@ function Navbar() {
                 spy="true"
                 smooth="true"
                 duration={500}
+                onClick={closeMobileMenu}
+                className="nav-links"
               >
                 Projects
               </Link>
@@ -75,6 +94,8 @@ function Navbar() {
                 spy="true"
                 smooth="true"
                 duration={500}
+                onClick={closeMobileMenu}
+                className="nav-links"
               >
                 Reviews
               </Link>
@@ -86,6 +107,8 @@ function Navbar() {
                 spy="true"
                 smooth="true"
                 duration={500}
+                onClick={closeMobileMenu}
+                className="nav-links"
               >
                 Pricing
               </Link>
@@ -97,6 +120,8 @@ function Navbar() {
                 spy="true"
                 smooth="true"
                 duration={500}
+                onClick={closeMobileMenu}
+                className="nav-links"
               >
                 Contact Us
               </Link>
@@ -105,7 +130,10 @@ function Navbar() {
         </div>
 
         <div className="social-media-wrapper">
-          <div className="menu-toggle"></div>
+          <div
+            className={click ? "menu-toggle active" : "menu-toggle"}
+            onClick={handleClick}
+          ></div>
           <li className="social-media">
             <a href="/">
               <i className="fab fa-facebook-f"></i>

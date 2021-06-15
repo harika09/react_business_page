@@ -61,6 +61,11 @@
   align-items: center;
 }
 
+.footer-logo img {
+  width: 75px;
+  height: 75px;
+}
+
 .footer-logo-wrapper .footer-copyright {
   font-size: 0.9rem;
   opacity: 0.5;

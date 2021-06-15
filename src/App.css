@@ -5,6 +5,11 @@
   font-family: "Roboto Mono", monospace;
 }
 
+button:active,
+.button:focus {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .bd-container {
   max-width: 1240px;
   margin-right: 1rem;
