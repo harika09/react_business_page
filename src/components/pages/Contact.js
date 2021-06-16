@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Contact.css";
 import { useForm } from "react-hook-form";
+import swal from "sweetalert";
 
 // Images
 import Cisco from "../images/cisco.png";
@@ -11,10 +12,21 @@ import Nbc from "../images/nbc.png";
 import Pinterest from "../images/pinterest.png";
 
 function Contact() {
-  const { message, handleSubmit, errors } = useForm();
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm();
 
   const onSubmit = (data) => {
     console.log(data);
+    reset();
+    swal({
+      title: "Message Send!",
+      text: "We will message you as soon as possible. Thank you!",
+      icon: "success",
+    });
   };
 
   return (
@@ -65,29 +77,32 @@ function Contact() {
 
           <div className="contact-form">
             <form onSubmit={handleSubmit(onSubmit)}>
-              <label>Fulle Name</label>
+              <label>Name</label>
               <input
                 type="text"
-                name="name"
-                id="name"
-                placeholder="Full Name"
-                ref={message}
+                {...register("name", { required: true })}
+                placeholder="Name"
               />
+              {errors.name && <p className="error-message">Name is required</p>}
+
               <label>Email Address</label>
               <input
                 type="email"
-                name="email"
-                id="email"
+                {...register("email", { required: true })}
                 placeholder="Email Address"
-                ref={message}
               />
+              {errors.email && (
+                <p className="error-message"> Email is required </p>
+              )}
+
               <label>Message</label>
               <textarea
-                name="subject"
-                id="subject"
+                {...register("subject", { required: true })}
                 placeholder="Message..."
-                ref={(message, { required: true, maxLength: 250 })}
               ></textarea>
+              {errors.subject && (
+                <p className="error-message">Message is required </p>
+              )}
               <button>Send</button>
             </form>
           </div>
