@@ -2,12 +2,17 @@
   margin-top: 80px;
 }
 
+.project-wrapper {
+  place-items: centers;
+}
+
 .project-cards {
   margin-top: 30px;
   gap: 10px;
   display: flex;
   flex-wrap: wrap;
   place-content: center;
+  margin-bottom: 20px;
 }
 
 .card-image {
@@ -33,6 +38,26 @@
   position: absolute;
   text-align: center;
   width: 100%;
+}
+
+.all-projects {
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #efba00;
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid #d0d0d0;
+}
+
+.all-projects:hover {
+  background-color: #fff;
+  color: #efba00;
+  border: 1px solid #efba00;
 }
 
 .swiper-pagination .swiper-pagination-bullet {

@@ -20,9 +20,8 @@ function Clients() {
       <div className="clients-wrapper bd-container">
         <h2>Our Clients</h2>
         <p className="text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-          eaque, error commodi aliquid autem harum sint voluptas. Sed, nam
-          sapiente!
+          Here is some feedback from our beloved clients as they give rate on
+          how we give them quality service
         </p>
 
         <Swiper pagination={{ dynamicBullets: true }} className="mySwiper">
@@ -90,26 +89,6 @@ function Clients() {
             </div>
           </SwiperSlide>
         </Swiper>
-
-        {/* <div className="clients-content">
-            <div className="client-info">
-                <img src={Client1} alt="clients" />
-                <strong> Ronald Donald</strong>
-                <p>Manager @Albonis San Francisco</p>
-            </div>
-
-            <div className="client-info">
-                <img src={Client1} alt="clients" />
-                <strong> Ronald Donald</strong>
-                <p>Manager @Albonis San Francisco</p>
-            </div>
-
-            <div className="client-info">
-                <img src={Client1} alt="clients" />
-                <strong> Ronald Donald</strong>
-                <p>Manager @Albonis San Francisco</p>
-            </div>
-          </div> */}
       </div>
     </div>
   );

@@ -8,9 +8,10 @@ function Services() {
         <div className="services-wrapper bd-container">
           <h2>Services</h2>
           <p className="text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            eaque, error commodi aliquid autem harum sint voluptas. Sed, nam
-            sapiente!
+            visual imagery provides an effective way to communicate between
+            abstract and reality. In addition, through the use of wide-ranging
+            cinematic tricks relying on color, lighting and framing, we are able
+            to achieve the best possible results.
           </p>
 
           <div className="services-card-wrapper">
@@ -19,10 +20,7 @@ function Services() {
               <p>
                 <strong>Floors & Roofs</strong>
               </p>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Inventore, ullam!
-              </p>
+              <p>Best of the best quality house floors and secure roofs</p>
               <button>
                 Learn More <i className="fas fa-arrow-right"></i>
               </button>
@@ -33,10 +31,7 @@ function Services() {
               <p>
                 <strong>Rooms & Halls</strong>
               </p>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Inventore, ullam!
-              </p>
+              <p>Best Rooms & halls for your family comfort and friends</p>
               <button>
                 Learn More <i className="fas fa-arrow-right"></i>
               </button>
@@ -47,10 +42,7 @@ function Services() {
               <p>
                 <strong>Basement</strong>
               </p>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Inventore, ullam!
-              </p>
+              <p>Quality basement abd comfort for your kids play ground</p>
               <button>
                 Learn More <i className="fas fa-arrow-right"></i>
               </button>
@@ -61,10 +53,7 @@ function Services() {
               <p>
                 <strong>Consulting</strong>
               </p>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Inventore, ullam!
-              </p>
+              <p>We value our clients and give them free consulting</p>
               <button>
                 Learn More <i className="fas fa-arrow-right"></i>
               </button>

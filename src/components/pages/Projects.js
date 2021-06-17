@@ -14,9 +14,8 @@ function Projects() {
       <div className="project-wrapper bd-container">
         <h2>Projects</h2>
         <p className="text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-          eaque, error commodi aliquid autem harum sint voluptas. Sed, nam
-          sapiente!
+          Here you can see a sample of our latest works. If that doesn't
+          convince you enough, check out the full experience under the button
         </p>
 
         <div className="project-cards">
@@ -55,6 +54,7 @@ function Projects() {
             <p>House</p>
           </div>
         </div>
+        <button className="all-projects">View All Projects</button>
       </div>
     </div>
   );

@@ -70,6 +70,13 @@ textarea {
   width: 100%;
   background: #efba00;
   color: #fff;
+  border: 1px solid #d0d0d0;
+}
+
+.contact-form button:hover {
+  background-color: #fff;
+  color: #efba00;
+  border: 1px solid #efba00;
 }
 
 .error-message {

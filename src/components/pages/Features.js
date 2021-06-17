@@ -8,15 +8,18 @@ function About() {
       <div className="feature-wrapper bd-container">
         <h2>Features</h2>
         <p className="text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-          eaque, error commodi aliquid autem harum sint voluptas. Sed, nam
-          sapiente!
+          Construct was founded in 2018 in Philippines, by a group of friends.
+          Since then we’ve made more than 1000 images for our customers over the
+          whole world
         </p>
         <div className="cards-container">
           <div className="card">
             <div className="card-info">
               <h4>Business Strategy</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                As a team, we work as one to provide great quality results for
+                our clients.
+              </p>
               <button>LEARN MORE</button>
             </div>
           </div>
@@ -24,7 +27,10 @@ function About() {
           <div className="card">
             <div className="card-info">
               <h4>Easy Documentation</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Every detail is well documented to provide all the details for
+                our clients.
+              </p>
               <button>LEARN MORE</button>
             </div>
           </div>
@@ -32,7 +38,10 @@ function About() {
           <div className="card">
             <div className="card-info">
               <h4>Real-time Updates</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Every detail is well documented to provide all the details for
+                our clients.
+              </p>
               <button>LEARN MORE</button>
             </div>
           </div>
@@ -40,13 +49,14 @@ function About() {
           <div className="card">
             <div className="card-info">
               <h4>Security Protection</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Security is our top priority. We Always protect our clients
+                data.
+              </p>
               <button>LEARN MORE</button>
             </div>
           </div>
         </div>
-
-        <button className="feature-btn"> Explore All Features </button>
 
         <div className="feature-lower-wrapper">
           <div className="feature-info-wrapper">
@@ -57,8 +67,8 @@ function About() {
               <div>
                 <h4>Build The House Of Your Dreams</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut dignissimos cum labore eius nisi?
+                  Building your dream house is part of our dream too, to make
+                  the dream of our clients come true
                 </p>
               </div>
             </div>
@@ -70,8 +80,8 @@ function About() {
               <div>
                 <h4>Get the Best View In the City</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut dignissimos cum labore eius nisi?
+                  When going home from work needs a good view for you to relax
+                  and that's what we here for to give your best view
                 </p>
               </div>
             </div>
@@ -83,8 +93,8 @@ function About() {
               <div>
                 <h4>Follow Your Biggest Dream</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut dignissimos cum labore eius nisi?
+                  Follow your dream, whatever it is. We provide good quality of
+                  service to help your dream do come true
                 </p>
               </div>
             </div>
@@ -94,6 +104,8 @@ function About() {
             <img src={architectImage} alt="" />
           </div>
         </div>
+
+        <button className="feature-btn"> Explore All Features </button>
       </div>
     </div>
   );

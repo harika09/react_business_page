@@ -8,9 +8,8 @@ function Home() {
         <div className="hero-info">
           <h1>Building Everything You need</h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-            corporis ipsa accusantium officia at commodi inventore earum eaque
-            sunt voluptatibus.
+            We use advanced computer techniques to combine the client’s vision,
+            beauty of designed objects and photorealistic look
           </p>
         </div>
 

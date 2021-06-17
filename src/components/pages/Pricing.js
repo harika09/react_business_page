@@ -7,9 +7,8 @@ function Pricing() {
       <div className="pricing-wrapper bd-container">
         <h2>Our Price</h2>
         <p className="text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-          eaque, error commodi aliquid autem harum sint voluptas. Sed, nam
-          sapiente!
+          For our beloved customer, we give a good discount and for a new
+          customer, we give a great offer
         </p>
 
         <div className="plan-container">

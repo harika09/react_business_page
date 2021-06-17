@@ -151,11 +151,11 @@ h2 {
 }
 
 .feature-lower-wrapper {
-  margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .info {
