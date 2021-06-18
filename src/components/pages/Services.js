@@ -8,7 +8,7 @@ function Services() {
         <div className="services-wrapper bd-container">
           <h2>Services</h2>
           <p className="text">
-            visual imagery provides an effective way to communicate between
+            Visual imagery provides an effective way to communicate between
             abstract and reality. In addition, through the use of wide-ranging
             cinematic tricks relying on color, lighting and framing, we are able
             to achieve the best possible results.
