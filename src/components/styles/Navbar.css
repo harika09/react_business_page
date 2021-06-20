@@ -111,9 +111,10 @@ a {
 
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: table;
+    margin-top: 10px;
   }
 
   .nav-links:hover {
@@ -128,6 +129,7 @@ a {
     height: 20px;
     background: url(../images/icon-hamburger.svg) no-repeat;
     background-size: 25px;
+    background-position: center;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
   }
@@ -139,6 +141,7 @@ a {
     background: url(../images/icon-close.svg) no-repeat;
     background-size: 25px;
     cursor: pointer;
+    background-position: center;
     -webkit-tap-highlight-color: transparent;
   }
   /* ========== Header END ========== */
