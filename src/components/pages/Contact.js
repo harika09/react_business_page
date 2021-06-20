@@ -32,7 +32,12 @@ function Contact() {
   return (
     <div className="contact-container" id="contact">
       <div className="contact-wrapper bd-container">
-        <div className="partner-wrapper">
+        <div
+          className="partner-wrapper"
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="10"
+        >
           <img src={Cisco} alt="Cisco-logo" />
           <img src={Square} alt="Square-logo" />
           <img src={Soundcloud} alt="Soundcloud-logo" />
@@ -40,9 +45,20 @@ function Contact() {
           <img src={Nbc} alt="Nbc-logo" />
           <img src={Pinterest} alt="Pinterest-logo" />
         </div>
-        <h2>Contact Us</h2>
+        <h2
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="10"
+        >
+          Contact Us
+        </h2>
         <div className="contact-info-wrapper">
-          <div className="contact-details">
+          <div
+            className="contact-details"
+            data-aos="fade-down"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="10"
+          >
             <div className="tel-info details">
               <div className="tel-icon">
                 <i className="fas fa-phone-alt"></i>
@@ -75,7 +91,12 @@ function Contact() {
             </div>
           </div>
 
-          <div className="contact-form">
+          <div
+            className="contact-form"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="10"
+          >
             <form onSubmit={handleSubmit(onSubmit)}>
               <label>Name</label>
               <input

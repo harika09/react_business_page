@@ -18,28 +18,54 @@ function Clients() {
   return (
     <div className="clients-container" id="clients">
       <div className="clients-wrapper bd-container">
-        <h2>Our Clients</h2>
-        <p className="text">
+        <h2
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="10"
+        >
+          Our Clients
+        </h2>
+        <p
+          className="text"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="10"
+        >
           Here is some feedback from our beloved clients as they give rate on
           how we give them quality service
         </p>
 
         <Swiper pagination={{ dynamicBullets: true }} className="mySwiper">
           <SwiperSlide>
-            <div className="clients-content">
+            <div
+              className="clients-content"
+              data-aos="fade-down"
+              data-aos-easing="ease-in-out"
+              data-aos-delay="10"
+            >
               <div className="client-info">
                 <img src={Client1} alt="clients" />
                 <strong> Ronald Donald</strong>
                 <p>Manager @Albonis San Francisco</p>
               </div>
 
-              <div className="client-info">
+              <div
+                className="client-info"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="10"
+              >
                 <img src={Client1} alt="clients" />
                 <strong> Ronald Donald</strong>
                 <p>Manager @Albonis San Francisco</p>
               </div>
 
-              <div className="client-info">
+              <div
+                className="client-info"
+                data-aos="fade-down"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="10"
+              >
                 <img src={Client1} alt="clients" />
                 <strong> Ronald Donald</strong>
                 <p>Manager @Albonis San Francisco</p>
