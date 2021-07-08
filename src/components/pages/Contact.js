@@ -20,7 +20,6 @@ function Contact() {
   } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
     reset();
     swal({
       title: "Message Send!",
