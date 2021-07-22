@@ -10,30 +10,14 @@ function About() {
   return (
     <div className="feature-container" id="features">
       <div className="feature-wrapper bd-container">
-        <h2
-          data-aos="fade-up"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="10"
-        >
-          Features
-        </h2>
-        <p
-          className="text"
-          data-aos="fade-up"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="10"
-        >
+        <h2>Features</h2>
+        <p className="text">
           Construct was founded in 2018 in Philippines, by a group of friends.
           Since then we’ve made more than 1000 images for our customers over the
           whole world
         </p>
         <div className="cards-container">
-          <div
-            className="card"
-            data-aos="fade-up"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="10"
-          >
+          <div className="card">
             <div className="card-info">
               <h4>Business Strategy</h4>
               <p>
@@ -44,12 +28,7 @@ function About() {
             </div>
           </div>
 
-          <div
-            className="card"
-            data-aos="fade-down"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="10"
-          >
+          <div className="card">
             <div className="card-info">
               <h4>Easy Documentation</h4>
               <p>
@@ -60,12 +39,7 @@ function About() {
             </div>
           </div>
 
-          <div
-            className="card"
-            data-aos="fade-up"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="10"
-          >
+          <div className="card">
             <div className="card-info">
               <h4>Real-time Updates</h4>
               <p>
@@ -76,12 +50,7 @@ function About() {
             </div>
           </div>
 
-          <div
-            className="card"
-            data-aos="fade-down"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="10"
-          >
+          <div className="card">
             <div className="card-info">
               <h4>Security Protection</h4>
               <p>
@@ -95,12 +64,7 @@ function About() {
 
         <div className="feature-lower-wrapper">
           <div className="feature-info-wrapper">
-            <div
-              className="info"
-              data-aos="fade-up"
-              data-aos-easing="ease-in-out"
-              data-aos-delay="10"
-            >
+            <div className="info">
               <div>
                 <i className="fas fa-home"></i>
               </div>
@@ -113,12 +77,7 @@ function About() {
               </div>
             </div>
 
-            <div
-              className="info"
-              data-aos="fade-up"
-              data-aos-easing="ease-in-out"
-              data-aos-delay="10"
-            >
+            <div className="info">
               <div>
                 <i className="fas fa-street-view"></i>
               </div>
@@ -131,12 +90,7 @@ function About() {
               </div>
             </div>
 
-            <div
-              className="info"
-              data-aos="fade-up"
-              data-aos-easing="ease-in-out"
-              data-aos-delay="10"
-            >
+            <div className="info">
               <div>
                 <i className="fas fa-rocket"></i>
               </div>
@@ -150,25 +104,12 @@ function About() {
             </div>
           </div>
 
-          <div
-            className="feature-info-img"
-            data-aos="fade-left"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="10"
-          >
+          <div className="feature-info-img">
             <img src={architectImage} alt="" />
           </div>
         </div>
 
-        <button
-          className="feature-btn"
-          data-aos="fade-down"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="10"
-        >
-          {" "}
-          Explore All Features{" "}
-        </button>
+        <button className="feature-btn"> Explore All Features </button>
       </div>
     </div>
   );

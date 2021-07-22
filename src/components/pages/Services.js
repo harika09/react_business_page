@@ -6,19 +6,8 @@ function Services() {
     <section id="services">
       <div className="services-container">
         <div className="services-wrapper bd-container">
-          <h2
-            data-aos="fade-up"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="10"
-          >
-            Services
-          </h2>
-          <p
-            className="text"
-            data-aos="fade-up"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="10"
-          >
+          <h2>Services</h2>
+          <p className="text">
             Visual imagery provides an effective way to communicate between
             abstract and reality. In addition, through the use of wide-ranging
             cinematic tricks relying on color, lighting and framing, we are able
@@ -26,12 +15,7 @@ function Services() {
           </p>
 
           <div className="services-card-wrapper">
-            <div
-              className="services-card"
-              data-aos="fade-up-right"
-              data-aos-easing="ease-in-out"
-              data-aos-delay="10"
-            >
+            <div className="services-card">
               <i className="fas fa-home"></i>
               <p>
                 <strong>Floors & Roofs</strong>
@@ -42,12 +26,7 @@ function Services() {
               </button>
             </div>
 
-            <div
-              className="services-card"
-              data-aos="fade-down-left"
-              data-aos-easing="ease-in-out"
-              data-aos-delay="10"
-            >
+            <div className="services-card">
               <i className="fas fa-building"></i>
               <p>
                 <strong>Rooms & Halls</strong>
@@ -58,12 +37,7 @@ function Services() {
               </button>
             </div>
 
-            <div
-              className="services-card"
-              data-aos="fade-up-right"
-              data-aos-easing="ease-in-out"
-              data-aos-delay="10"
-            >
+            <div className="services-card">
               <i className="fas fa-hotel"></i>
               <p>
                 <strong>Basement</strong>
@@ -74,12 +48,7 @@ function Services() {
               </button>
             </div>
 
-            <div
-              className="services-card"
-              data-aos="fade-down-left"
-              data-aos-easing="ease-in-out"
-              data-aos-delay="10"
-            >
+            <div className="services-card">
               <i className="fas fa-pencil-ruler"></i>
               <p>
                 <strong>Consulting</strong>

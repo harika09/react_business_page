@@ -6,12 +6,7 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-wrapper bd-container">
-        <div
-          className="footer-content"
-          data-aos="fade-down"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="10"
-        >
+        <div className="footer-content">
           <div className="footer-about">
             <strong>About Us</strong>
             <p>
@@ -105,12 +100,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div
-          className="footer-logo-wrapper"
-          data-aos="fade-down"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="10"
-        >
+        <div className="footer-logo-wrapper">
           <div className="footer-logo">
             <img src={Logo} alt="Logo" />
           </div>

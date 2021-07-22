@@ -12,23 +12,13 @@ function Pricing() {
         >
           Our Price
         </h2>
-        <p
-          className="text"
-          data-aos="fade-down"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="10"
-        >
+        <p className="text">
           For our beloved customer, we give a good discount and for a new
           customer, we give a great offer
         </p>
 
         <div className="plan-container">
-          <div
-            className="plan-card"
-            data-aos="fade-down"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="10"
-          >
+          <div className="plan-card">
             <div className="card-top">
               <i className="fas fa-leaf"></i>
               <strong>ECO PLAN</strong>
@@ -49,12 +39,7 @@ function Pricing() {
             <p className="price">$69/m</p>
           </div>
 
-          <div
-            className="plan-card"
-            data-aos="fade-up"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="10"
-          >
+          <div className="plan-card">
             <div className="card-top">
               <i className="fas fa-archway"></i>
               <strong>BASIC PLAN</strong>
@@ -75,12 +60,7 @@ function Pricing() {
             <p className="price">$99/m</p>
           </div>
 
-          <div
-            className="plan-card"
-            data-aos="fade-down"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="10"
-          >
+          <div className="plan-card">
             <div className="card-top">
               <i className="popular"></i>
               <i className="fas fa-university"></i>
@@ -102,12 +82,7 @@ function Pricing() {
             <p className="price">$199/m</p>
           </div>
 
-          <div
-            className="plan-card"
-            data-aos="fade-up"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="10"
-          >
+          <div className="plan-card">
             <div className="card-top">
               <i className="fas fa-vihara"></i>
               <strong>CORPORATE PLAN</strong>
