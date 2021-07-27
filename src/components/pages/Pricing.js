@@ -5,13 +5,7 @@ function Pricing() {
   return (
     <div className="pricing-container" id="pricing">
       <div className="pricing-wrapper bd-container">
-        <h2
-          data-aos="fade-down"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="10"
-        >
-          Our Price
-        </h2>
+        <h2>Our Price</h2>
         <p className="text">
           For our beloved customer, we give a good discount and for a new
           customer, we give a great offer
